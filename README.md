@@ -10,6 +10,7 @@ Calculate EMI using the formula, amt=(prpow(1+r,t))/(pow(1+r,t)-1)
 Display the result.
 Stop the program.
 PROGRAM
+```
 #include <stdio.h>
 #include <math.h>
 
@@ -26,6 +27,7 @@ int main() {
     printf("EMI = %.2f\n", emi(p, r, t));
     return 0;
 }
+```
 
 OUTPUT
 image
